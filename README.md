@@ -1,4 +1,16 @@
-# rsyslog-docs
+root@raspberrypi:~# /boot/factory_reset
+usage: /boot/factory_reset options
+Calling this script causes the rPi to reboot and factory reset. All data is lost
+
+OPTIONS:
+  --reset                set this option to proceed with reset,
+                          otherwise script will exit and do nothing
+
+  --copy-pi-password     during the reset, preserve the pi user password
+
+  --copy-root-password   during the reset, preserve the root password
+
+  --copy-wifi            preserve the current wifi settings# rsyslog-docs
 
 ## Documentation for the rsyslog project
 
